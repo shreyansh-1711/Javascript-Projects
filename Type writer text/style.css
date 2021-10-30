@@ -1,0 +1,29 @@
+*,::before::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(/img/moe-3793863_1920.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+.container{
+    position: relative;
+    top: 40%;
+    margin: auto;
+    max-width: 600px;
+    font-size: 4rem;
+}
+@media (min-width: 1024px){
+    .container{
+    max-width: 1400px;
+    font-size: 8rem;
+
+}
+}
