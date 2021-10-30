@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TAB MENU USING DATA ATTRIBUTES</title>
+</head>
+<body>
+    <h1>Photo Of The Year</h1>
+    <img src="https://source.unsplash.com/random/1600x900" alt="" />
+    <main>
+        <div class="tabs-container">
+            <button class="btn active" data-id="Photographer">PHOTOGRAPHER</button>
+            <button class="btn" data-id="Camera-Gear">CAMERA GEAR</button>
+            <button class="btn" data-id="Location">LOCATION</button>
+        </div>
+        <div class="tabs-content">
+            <div class="content active" id="Photographer">
+                <h4>Photographer</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae soluta maiores sapiente recusandae repudiandae ea, dolores natus aut possimus reprehenderit perspiciatis numquam incidunt architecto sint doloremque velit eligendi facilis illo.
+                </p>
+            </div>
+            <div class="content" id="Camera-Gear">
+                <h4>CAMERA GEAR</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae soluta maiores sapiente recusandae repudiandae ea, dolores natus aut possimus reprehenderit perspiciatis numquam incidunt architecto sint doloremque velit eligendi facilis illo.
+                </p>
+            </div>
+            <div class="content" id="Location">
+                <h4>LOCATION</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae soluta maiores sapiente recusandae repudiandae ea, dolores natus aut possimus reprehenderit perspiciatis numquam incidunt architecto sint doloremque velit eligendi facilis illo.
+                </p>
+            </div>
+            
+        </div>
+    </main>
+    <script src="tabs.js"></script>
+</body>
+</html>
